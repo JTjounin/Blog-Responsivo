@@ -24,7 +24,7 @@
   .nav {
     z-index: 10;
     background-color: #fff;
-    width: 300px;
+    width: 208px;
     position: absolute;
     /* This trasform moves the drawer off canvas. */
     -webkit-transform: translate(-300px, 0);
@@ -88,4 +88,149 @@
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+@media screen and (max-width: 320px) {
+  
+  .hero article {  
+    height: 45%;
+    font-size: 13px;
+}
+
+  .hero article p {
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+  .top-news {
+    font-size: 13px
+  }
+  
+  .news__title {
+    font-size: 20px;
+  }
+
+  .snippet p {
+    font-size: 15px;
+  }
+
+  .snippet h3{
+    font-size: 17px;
+  }
+
+  .snippet img {
+    width: 120px;
+  }
+
+  .scores__table {
+    width: 320px;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer a {
+    padding: 0;
+  }
+
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .hero article p {
+    font-size: 14px;
+  }
+
+  .news__title {
+    font-size: 20px;
+  }
+
+  .top-news {
+    font-size: 13px
+  }
+
+  .snippet p {
+    font-size: 14px;
+  }
+
+  .snippet h3 {
+    font-size: 16px;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer a {
+    padding: 0;
+  }
+
+}
+
+@media screen and (min-width:376) and (max-width: 425px) {
+  .header__title {
+    font-size: 27px;
+  }
+
+  .hero article p {
+    font-size: 15px;
+  }
+
+  
+  .top-news {
+    font-size: 13px
+  }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .hero article p {
+    font-size: 14px;
+  }
+
+  .nav__item {
+    font-size: 15px;
+  }
+
+  .scores {
+    order: 2;
+    width: 41%;
+  }
+
+  .top-news {
+    font-size: 14px
+  }
+
+  .news__title {
+    font-size: 20px;
+  }
+
+  .snippet img {
+    width: 150px;
+  }
+
+  .snippet h3{
+    font-size: 18px;
+  }
+
+  .snippet p{
+    font-size: 15px;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer a {
+    font-size: 15px;
+    margin: 30px;
+  }
+
 }
